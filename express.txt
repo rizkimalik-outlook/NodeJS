@@ -1,0 +1,29 @@
+https://www.edureka.co/blog/node-js-mysql-tutorial/
+http://mfikri.com/en/blog/nodejs-restful-api-mysql
+https://www.codementor.io/julieisip/learn-rest-api-using-express-js-and-mysql-db-ldflyx8g2
+
+server https
+https://timonweb.com/posts/running-expressjs-server-over-https/
+https://stackoverflow.com/questions/11744975/enabling-https-on-express-js
+
+body parser
+https://github.com/expressjs/body-parser
+
+iis
+https://dev.to/petereysermans/hosting-a-node-js-application-on-windows-with-iis-as-reverse-proxy-397b
+
+crud nodejs
+http://mfikri.com/artikel/crud-nodejs-mysql
+
+email
+https://www.petanikode.com/nodejs-email/
+https://stackoverflow.com/questions/45478293/username-and-password-not-accepted-when-using-nodemailer
+https://stackabuse.com/how-to-send-emails-with-node-js/
+
+nodemon
+https://stackoverflow.com/questions/1972242/how-to-auto-reload-files-in-node-js
+
+
+//mssql
+https://vmokshagroup.com/blog/building-restful-apis-using-node-js-express-js-and-ms-sql-server/
+http://mfikri.com/en/blog/nodejs-mysql-crud

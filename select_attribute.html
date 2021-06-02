@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="test1">
+        <option value="100" nama="seratus">seratus</option>
+        <option value="200" nama="duaratus">duaratus</option>
+        <option value="300" nama="3ratus">3ratus</option>
+        <option value="400" nama="4ratus">4ratus</option>
+    </select>
+
+    <!-- <script src="select.js"></script> -->
+    <script>
+        const select = document.querySelector('[name=test1]');
+        // select.setAttribute('data-id','100');
+        select.addEventListener('change', function(){
+            console.log(select.value); 
+            console.log(select.selectedOptions[0].getAttribute('nama')); 
+        })
+
+        setTimeout(() => {
+            // select.selectedOptions[0].setAttribute('nama', 'Employee');
+            select.value = '400';
+        }, 2000);
+    </script>
+</body>
+</html>

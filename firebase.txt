@@ -1,0 +1,22 @@
+https://firebase.google.com/docs/cloud-messaging/js/receive
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-messaging.js"></script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCRSPNmlMshcfGpEpYAXyaoyxBAIl7xHEU",
+  authDomain: "addo-dev-notification.firebaseapp.com",
+  databaseURL: "https://addo-dev-notification.firebaseio.com",
+  projectId: "addo-dev-notification",
+  storageBucket: "addo-dev-notification.appspot.com",
+  messagingSenderId: "339310764987",
+  appId: "1:339310764987:web:84d25fc58915744e55da9e",
+  measurementId: "G-7HJF2VL1CZ"
+};
+
+AIzaSyAlHBb_-x4Ap4BR9w8D_PIQIe4JlvMSD78
+
+
+AIzaSyD3xFByKh8ZxMTkyzqDKwt54ib_ptg3QEg

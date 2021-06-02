@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    .loader-overlay {
+        z-index: 10000;
+        position: fixed; 
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        text-align: center;
+        background: rgba(200,200,200,0.5);
+        /* background-image: url('img/loading.gif'); */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+    }
+    </style>
+</head>
+<body>
+    <div id="body">
+
+        <input type="text" id="AgentHandle">
+        <button onclick="spawnNotification()">notif</button>
+        <button onclick="" id="btnload">load</button>
+        <input type="radio" name="cek" id="cek1" data-reply="cek 1">
+        <input type="radio" name="cek" id="cek2" data-reply="cek 2" >
+        <input type="radio" name="cek" id="cek3" data-reply="cek 3" checked>
+        <br>
+        <br>
+        <span id="asd"></span>
+        <span class="getdatetime"></span>
+
+    </div>
+    <script src="load.js"></script>
+    <!-- <script type="module" src="load.js"></script> -->
+
+    <script>
+        function endChat(){
+            document.getElementById("body").innerHtml = '<div id="requestOverlay" class="loader-overlay"></div>';
+            // $('body').append('<div id="requestOverlay" class="loader-overlay"></div>'); 
+            // $("#requestOverlay").show();
+            // document.getElementById("requestOverlay").style.display = "block";
+            
+            //back to login
+            setTimeout(function () {
+                // chat.server.endChat_User($('#UserID').val(), $("#AgentID").val(), $('#chatID').val());
+                // $("#requestOverlay").hide();
+                document.getElementById("requestOverlay").style.display = "none";
+                // location.reload();
+            }, 5000);
+            
+        }
+    </script>
+
+    <script>
+        function spawnNotification() {
+            var options = {
+                body: 'hallo',
+                icon: 'chat.png'
+            }
+            var n = new Notification('Test',options);
+        }
+    </script>
+</body>
+
+</html>
